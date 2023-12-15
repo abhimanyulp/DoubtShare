@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const baseServerUrl = "http://localhost:8080"
+const baseServerUrl = "https://doubt-share-sho3.onrender.com"
 
 const CreateDoubtPage = () => {
     const [subject, setSubject] = useState('');

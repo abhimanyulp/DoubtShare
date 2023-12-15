@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 
 
-const baseServerUrl = "http://localhost:8080"
+const baseServerUrl = "https://doubt-share-sho3.onrender.com"
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
